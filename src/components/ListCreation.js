@@ -40,7 +40,7 @@ const ListCreation = ({ lists, selectedLists, onCancel, onUpdate }) => {
 
   return (
     <div className="list-creation-view">
-      <h1>List Creation</h1>
+      <h1 style={{textAlign: 'center'}}>List Creation</h1>
       <div className="actions">
         <button onClick={onCancel}>Cancel</button>
         <button onClick={handleUpdate}>Update</button>

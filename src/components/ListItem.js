@@ -10,7 +10,11 @@ const ListItem = ({ item, onItemAction, listNumber }) => (
     {onItemAction && (
       <div className="arrows">
         {listNumber !== 'middle' && (
-          <button onClick={() => onItemAction(item, listNumber, 'toMiddle')}>→</button>
+          <button onClick={() => onItemAction(item, listNumber, 'toMiddle')}>
+            {
+              listNumber===1?"→":"←"
+            }
+          </button>
         )}
         {listNumber === 'middle' && (
           <>
