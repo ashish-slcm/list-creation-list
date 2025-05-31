@@ -1,32 +1,21 @@
-.list-container {
-  flex: 1;
-  min-width: 300px;
-  background-color: #e5f7fd;
+/* === src/components/ListContainer.css === */
+.list-box {
   border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
   min-width: 250px;
-  max-width: 350px;
-  border-radius: 1rem;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  max-height: 80vh;
-}
-
-.list-container h2 {
-  margin-top: 0;
-  text-align: center;
-  font-size: 1.2rem;
-}
-
-.list-scroll-container {
+  max-width: 400px;
   flex: 1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #e5f7fd;
+  max-height: 80vh;
   overflow-y: auto;
-  margin-top: 10px;
-  padding-right: 6px;
 }
 
-.empty-text {
-  text-align: center;
-  font-style: italic;
-  color: #666;
+.list-checkbox {
+  margin-right: 10px;
+}
+
+.list-header{
+    display: flex;
 }
