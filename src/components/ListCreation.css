@@ -1,0 +1,21 @@
+/* === src/components/ListCreation.css === */
+.list-creation-view {
+  text-align: center;
+}
+.list-header{
+    margin: 1rem 0;
+}
+@media screen and (max-width: 768px) {
+  .list-container-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list-box {
+    width: 90%;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+}
